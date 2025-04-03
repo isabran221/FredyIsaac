@@ -1,0 +1,81 @@
+INSTRUCCIONES PARA EJECUTAR EL CHATBOT LOCALMENTE
+Archivos necesarios:
+
+chatbot_api.py
+
+chatbot.html
+
+NOTA: FREDY ya tienes los archivos, asi que solo instala las dependencias y los archivos ya estan directos en esa carpeta de 'System'.
+
+PASO 1: INSTALAR PYTHON
+
+Si aún no tienes Python, descárgalo desde:
+
+https://www.python.org/downloads/
+
+Revisa si está bien instalado abriendo una terminal (PowerShell o CMD) y escribe:
+
+
+python --version
+También asegúrate de tener pip, escribiendo:
+
+
+pip --version
+
+
+PASO 2: INSTALAR LOS PAQUETES NECESARIOS
+
+Abre la terminal y ejecuta este comando (solo una vez):
+
+
+pip install flask flask-cors google-generativeai
+
+
+PASO 3: COLOCAR LOS ARCHIVOS
+
+Coloca los dos archivos chatbot_api.py y chatbot.html en una carpeta fácil de ubicar, por ejemplo en:
+
+
+C:\Users\TuNombre\Documents\PortalJob\System
+
+
+PASO 4: EJECUTAR EL SERVIDOR DEL CHATBOT
+Abre la terminal y ve a la carpeta donde están los archivos. Por ejemplo:
+
+
+cd C:\Users\TuNombre\Documents\ChatbotFredyIsaac
+
+
+Luego ejecuta:
+
+
+python chatbot_api.py
+
+
+Si todo va bien, verás un mensaje como este:
+
+
+Running on http://127.0.0.1:5005
+
+
+Eso significa que el chatbot ya está funcionando.
+
+PASO 5: ABRIR EL CHATBOT
+
+Solo abre el archivo chatbot.html con doble clic o desde el navegador (Chrome recomendado).
+
+Ahí puedes escribir tus preguntas relacionadas con la plataforma FredyIsaac, como por ejemplo:
+
+¿Qué es FredyIsaac?
+
+¿Cómo funciona la plataforma?
+
+¿Qué hace un reclutador?
+
+¿Qué puedo hacer como candidato?
+
+¿Cómo postulo a una vacante?
+
+El chatbot responderá con información útil relacionada con el sistema.
+
+Si necesitas volver a iniciar el chatbot, solo repite el paso 4.
